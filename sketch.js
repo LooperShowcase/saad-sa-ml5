@@ -30,7 +30,8 @@ function setup() {
 
 function keyPressed(){
   if (key === " ") {
-    player.jump()
+    player.jump();
+    console.log("up")
   }
 }
 
